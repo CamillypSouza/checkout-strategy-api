@@ -1,4 +1,4 @@
-package main.java.com.checkoutapi.strategy;
+package com.checkoutapi.strategy;
 
 public class PaymentResult {
     private final boolean approved;

@@ -1,10 +1,10 @@
-package main.java.com.checkoutapi.facade;
+package com.checkoutapi.facade;
 
-import main.java.com.checkoutapi.exception.PaymentException;
-import main.java.com.checkoutapi.model.Order;
-import main.java.com.checkoutapi.singleton.TransactionLogger;
-import main.java.com.checkoutapi.strategy.PaymentResult;
-import main.java.com.checkoutapi.strategy.PaymentStrategy;
+import com.checkoutapi.exception.PaymentException;
+import com.checkoutapi.model.Order;
+import com.checkoutapi.singleton.TransactionLogger;
+import com.checkoutapi.strategy.PaymentResult;
+import com.checkoutapi.strategy.PaymentStrategy;
 
 public class CheckoutFacade {
 

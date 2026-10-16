@@ -1,6 +1,6 @@
-package main.java.com.checkoutapi.strategy;
+package com.checkoutapi.strategy;
 
-import main.java.com.checkoutapi.exception.PaymentException;
+import com.checkoutapi.exception.PaymentException;
 
 public interface PaymentStrategy {
 

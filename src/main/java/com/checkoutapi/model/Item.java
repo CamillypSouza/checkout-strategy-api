@@ -1,4 +1,4 @@
-package main.java.com.checkoutapi.model;
+package com.checkoutapi.model;
 
 public class Item {
 

@@ -1,11 +1,11 @@
-package main.java.com.checkoutapi;
+package com.checkoutapi;
 
-import main.java.com.checkoutapi.exception.PaymentException;
-import main.java.com.checkoutapi.facade.CheckoutFacade;
-import main.java.com.checkoutapi.model.Item;
-import main.java.com.checkoutapi.model.Order;
-import main.java.com.checkoutapi.singleton.TransactionLogger;
-import main.java.com.checkoutapi.strategy.*;
+import com.checkoutapi.exception.PaymentException;
+import com.checkoutapi.facade.CheckoutFacade;
+import checkoutapi.model.Item;
+import com.checkoutapi.model.Order;
+import com.checkoutapi.singleton.TransactionLogger;
+import com.checkoutapi.strategy.*;
 
 public class Main {
     static void main(String[] args) throws PaymentException {

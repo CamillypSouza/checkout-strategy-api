@@ -1,4 +1,4 @@
-package main.java.com.checkoutapi.singleton;
+package com.checkoutapi.singleton;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
